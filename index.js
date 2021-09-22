@@ -1,8 +1,8 @@
 function startgame() {
     setGameTime()
-    if(!isGameStarted){
-    $gameTime.setAttribute('disabled', 'true')
-    }
+   // if(!isGameStarted){
+   // $gameTime.setAttribute('disabled', 'true')
+   // }
     console.log($gameTime)
     $resulth.classList.add('hide')
     $timeh.classList.remove('hide')
@@ -79,4 +79,6 @@ $button.addEventListener('click', startgame)
 $game.addEventListener('click', handleBoxClick)
 $gameTime.addEventListener('input', setGameTime)
 
-
+if(!isGameStarted){
+    $gameTime.setAttribute('disabled', 'true')
+    }
