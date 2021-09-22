@@ -2,7 +2,7 @@ function startgame() {
     setGameTime()
 
 isGameStarted = true
-    $gameTime.disabled = true
+    //$gameTime.disabled = true
     $resulth.classList.add('hide')
     $timeh.classList.remove('hide')
     let score = 0
