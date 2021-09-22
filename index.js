@@ -37,7 +37,7 @@ document.querySelector('#result').textContent = score
 score = 0
 
    if(!isGameStarted){
-    $gameTime.removeAttribute('disabled')
+    $gameTime.disabled = false
    }
 
 }
