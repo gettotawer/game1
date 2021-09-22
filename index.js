@@ -32,7 +32,7 @@ $resulth.classList.remove('hide')
 $timeh.classList.add('hide')
 document.querySelector('#result').textContent = score
 score = 0
-    $gameTime.disabled = false
+   // $gameTime.disabled = false
 }
 function renderBox(){
 
