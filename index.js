@@ -1,11 +1,13 @@
 function startgame() {
     setGameTime()
+
+isGameStarted = true
+
    if(!isGameStarted){
     $gameTime.setAttribute('disabled', 'true')
    }
     $resulth.classList.add('hide')
     $timeh.classList.remove('hide')
-    isGameStarted = true
     let score = 0
     $button.classList.add('hide')
     $game.style.backgroundColor = '#fff'
