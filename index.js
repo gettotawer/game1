@@ -34,6 +34,9 @@ $resulth.classList.remove('hide')
 $timeh.classList.add('hide')
 document.querySelector('#result').textContent = score
 score = 0
+
+$gameTime.setAttribute('disabled', 'false')
+
 }
 function renderBox(){
 
@@ -79,6 +82,6 @@ $button.addEventListener('click', startgame)
 $game.addEventListener('click', handleBoxClick)
 $gameTime.addEventListener('input', setGameTime)
 
-if(!isGameStarted){
-    $gameTime.setAttribute('disabled', 'true')
-    }
+//if(!isGameStarted){
+ //   $gameTime.setAttribute('disabled', 'true')
+//    }
