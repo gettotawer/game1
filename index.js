@@ -3,7 +3,7 @@ function startgame() {
 
 isGameStarted = true
 
-   if(!isGameStarted){
+   if(isGameStarted){
     $gameTime.setAttribute('disabled', 'true')
    }
     $resulth.classList.add('hide')
