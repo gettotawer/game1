@@ -36,7 +36,9 @@ $timeh.classList.add('hide')
 document.querySelector('#result').textContent = score
 score = 0
 
-//$gameTime.setAttribute('disabled', 'false')
+   if(!isGameStarted){
+    $gameTime.setAttribute('disabled', 'false')
+   }
 
 }
 function renderBox(){
