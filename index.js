@@ -2,7 +2,7 @@ function startgame() {
     setGameTime()
 
 isGameStarted = true
-    //$gameTime.disabled = true
+    $gameTime.disabled = true
     $resulth.classList.add('hide')
     $timeh.classList.remove('hide')
     let score = 0
@@ -32,7 +32,7 @@ $resulth.classList.remove('hide')
 $timeh.classList.add('hide')
 document.querySelector('#result').textContent = score
 score = 0
-   // $gameTime.disabled = false
+$gameTime.disabled = false
 }
 function renderBox(){
 
